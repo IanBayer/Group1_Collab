@@ -43,6 +43,22 @@ if shape == "C":
         heightp = float(input("Please key in height (m): "))
         volumep = lengthp * width * heightp
         print("\nThe volume of cube is {} cu.m.".format(volumep))
+if shape == "D":
+    print("\n[1] Area [2] Volume")
+    formula = int(input("Choose parameter to compute: "))
+    if formula == 1:
+        base = float(input("\nPlease key in base (m): "))
+        heightp = float(input("Please key in height (m): "))
+        lengthp = float(input("Please key in length (m): "))
+        sidep = float(input("Please key in side (m): "))
+        areap = base * heightp + 2*lengthp*sidep
+        print("\nThe area of prism is {} sq.m.".format(areap))
+    if formula == 2:
+        lengthp = float(input("\nPlease key in length (m): "))
+        width = float(input("Please key in width (m): "))
+        heightp = float(input("Please key in height (m): "))
+        volumep = lengthp * width * heightp
+        print("\nThe volume of cube is {} cu.m.".format(volumep))
 
 <<<<<<< HEAD
         ## Testing push by Sandy Kalugdan
