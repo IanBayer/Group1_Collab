@@ -44,4 +44,10 @@ if shape == "C":
         volumep = lengthp * width * heightp
         print("\nThe volume of cube is {} cu.m.".format(volumep))
 
+<<<<<<< HEAD
         ## Testing push by Sandy Kalugdan
+=======
+'''
+Testing Update Only!
+'''
+>>>>>>> a7057d5acd0ba05e272c36d7f73df6d604879fe5
