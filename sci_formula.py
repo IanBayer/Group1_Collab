@@ -94,6 +94,26 @@ def calc():
             volumep = lengthp * width * heightp
             print("\nThe volume of cube is {} cu.m.".format(volumep))
 
+        if shape == "D" or shape == "d":
+        head()
+        print("\n[1] Area [2] Volume\n")
+        formula = int(input("Choose parameter to compute: "))
+        clean()
+        if formula == 1:
+            head()
+            aarea()
+            PI = 3.14
+            radius = float(input("Please key in radius (cm): "))
+            areap = radius**3 * 4/3 * PI
+            print("\nThe Surface area of sphere is {} cm2.".format(areap))
+        if formula == 2:
+            head()
+            vvolume()
+            PI = 3.14
+            radius = float(input("Please key in radius (cm): "))
+            heightp = float(input("Please key in height (cm): "))
+            volumep = radius**2 * h * PI / 3
+            print("\nThe volume of sphere is {} cm.".format(volumep))
 
 
 repeat = "Y"
